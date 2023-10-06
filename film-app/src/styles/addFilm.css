@@ -1,0 +1,52 @@
+.add_film {
+  margin-bottom: 4rem;
+}
+
+.add_film form {
+  border: 3px solid gray;
+  padding: 1rem;
+}
+
+.add_film .btn_open_form {
+  border: 1px solid #fff;
+  background-color: orange;
+  color: #fff;
+  font-size: 17px;
+  padding: 10px 15px;
+}
+
+.add_film .btn_open_form:hover {
+  background-color: #fff;
+  border: 1px solid orange;
+  color: orange;
+}
+
+input {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: 1;
+  padding: 0 1em;
+  background-color: #fff;
+  border: 2px solid silver;
+  width: clamp(70px, 10px);
+  margin-right: 15px;
+}
+
+.label_block {
+  margin-top: 1rem;
+}
+
+.btn_submit,
+.btn_close_form {
+  margin-top: 1rem;
+  border: 1px solid gray;
+  background-color: orange;
+  color: #fff;
+  font-size: 15px;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+.btn_close_form {
+  margin-left: 4rem;
+}
